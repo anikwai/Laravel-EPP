@@ -2,11 +2,14 @@
 [![Latest Stable Version](https://poser.pugx.org/ywatchman/laravel-epp/v/stable)](https://packagist.org/packages/ywatchman/laravel-epp)
 ![StyleCI](https://github.styleci.io/repos/211557879/shield)
 
-# Currently being totally rewritten, getting rid of metaregistrar/php-epp-client dependency.
+# Laravel EPP Package
+
+This package is currently optimized for Laravel 11.x. Support for Laravel 12 will be added once it is officially released.
 
 ## Installing
+
 ```bash
-composer require "ywatchman/laravel-epp=dev-develop"
+composer require "ywatchman/laravel-epp"
 php artisan vendor:publish --provider="YWatchman\LaravelEPP\ServiceProvider"
 ```
 
